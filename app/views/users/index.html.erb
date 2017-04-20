@@ -1,0 +1,9 @@
+<h1>Hello</h1>
+
+<% @users.each do |user| %>
+  <p><%= user.username %></p>
+  <% user.posts.each do |post| %>
+    <p><%= post.title %></p>
+  <% end %>
+
+<% end %>
