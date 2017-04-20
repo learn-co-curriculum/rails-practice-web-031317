@@ -25,5 +25,11 @@
 
   get '/users' will show all of the users
 
-3. Sessions
-4. Forms - what data do we want?
+3. Forms - what data do we want?
+
+  + As a user, I should be able to log in
+  + As a logged in user, I should be able to create a new post
+  + As a logged in user, I should be able to edit a post I've already created
+
+
+4. Sessions
